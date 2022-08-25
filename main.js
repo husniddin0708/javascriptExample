@@ -659,15 +659,674 @@
 //     }
 // }
 
-let x=parseInt(prompt("x ni kiritingt:"));
-let y=parseInt(prompt("y ni kiritingt:"));
+// let x=parseInt(prompt("x ni kiritingt:"));
+// let y=parseInt(prompt("y ni kiritingt:"));
 
-if(x<0&&y>0){
-    console.log("2-chorakda yotibdi:"+"x = "+x+" y = "+y);
-}else if(x>0&&y>0){
-    console.log("1-chorakda yotibdi:"+"x = "+x+" y = "+y);
-}else if(x<0&&y<0){
-    console.log("3-chorakda yotibdi:"+"x = "+x+" y = "+y);
-}else if(x>0&&y<0){
-    console.log("4-chorakda yotibdi:"+"x = "+x+" y = "+y);
-}
+// if(x<0&&y>0){
+//     console.log("2-chorakda yotibdi:"+"x = "+x+" y = "+y);
+// }else if(x>0&&y>0){
+//     console.log("1-chorakda yotibdi:"+"x = "+x+" y = "+y);
+// }else if(x<0&&y<0){
+//     console.log("3-chorakda yotibdi:"+"x = "+x+" y = "+y);
+// }else if(x>0&&y<0){
+//     console.log("4-chorakda yotibdi:"+"x = "+x+" y = "+y);
+// }
+// if(a>0){
+//     a=a+1;
+//     console.log(a);
+// }else{
+//     console.log(a);
+// }
+// if(a>0){
+//     a=a+1;
+//     console.log(a);
+// }else{
+//     a=a-2;
+//     console.log(a);
+// }
+
+// let oy=parseInt(prompt("Oy raqamini kiriting:"));
+
+// switch (oy){
+//     case 1:
+//         alert("Yanvar "+" Febral "+" Dekabr");
+//     break;
+//     case 2:
+//         alert("Mart "+" Aprel "+" May");
+//     break;
+//     case 3:
+//         alert("Iyun "+" Iyul "+" Avgust");
+//     break;
+//     case 4:
+//         alert("Sentyabr "+" Oktyabr "+" Noyabr");
+//     break;
+// }
+
+// let son =parseInt(prompt("1 dan 100 gacha son kiriting:"));
+
+// switch (son){
+//     case 1:
+//         alert("Bir");
+//     break;
+//     case 2:
+//         alert("Ikki");
+//     break;
+//     case 3:
+//         alert("Uch");
+//     break;
+//     case 4:
+//         alert("To'rt");
+//     break;
+//     case 5:
+//         alert("Besh");
+//     break;
+//     case 6:
+//         alert("Olti");
+//     break;
+//     case 7:
+//         alert("Yetti");
+//     break;
+//     case 8:
+//         alert("Sakkiz");
+//     break;
+//     case 9:
+//         alert("To'qqiz");
+//     break;
+//     case 10:
+//         alert("O'n");
+//     break;
+//     case 11:
+//         alert("O'n bir");
+//     break;
+//     case 12:
+//         alert("O'n ikki");
+//     break;
+//     case 13:
+//         alert("O'n uch");
+//     break;
+//     case 14:
+//         alert("O'n to'rt");
+//     break;
+//     case 15:
+//         alert("O'n besh");
+//     break;
+//     case 16:
+//         alert("O'n olti");
+//     break;
+//     case 17:
+//         alert("O'n yetti");
+//     break;
+//     case 18:
+//         alert("O'n sakkiz");
+//     break;
+//     case 19:
+//         alert("O'n to'qqiz");
+//     break;
+//     case 20:
+//         alert("Yigirma");
+//     break;
+//     case 21:
+//         alert("Yigirma bir");
+//     break;
+//     case 22:
+//         alert("Yigirma ikki");
+//     break;
+//     case 23:
+//         alert("Yigirma uch");
+//     break;
+//     case 24:
+//         alert("Yigirma to'rt");
+//     break;
+//     case 25:
+//         alert("Yigirma besh");
+//     break;
+//     case 26:
+//         alert("Yigirma olti");
+//     break;
+//     case 27:
+//         alert("Yigirma yetti");
+//     break;
+//     case 28:
+//         alert("Yigirma sakkiz");
+//     break;
+//     case 29:
+//         alert("Yigirma to'qqiz");
+//     break;
+//     case 30:
+//         alert("O'ttiz");
+//     break;
+//     case 31:
+//         alert("O'ttiz Bir");
+//     break;
+//     case 32:
+//         alert("O'ttiz Ikki");
+//     break;
+//     case 33:
+//         alert("O'ttiz Uch");
+//     break;
+//     case 34:
+//         alert("O'ttiz To'rt");
+//     break;
+//     case 35:
+//         alert("O'ttiz Besh");
+//     break;
+//     case 36:
+//         alert("O'ttiz Olti");
+//     break;
+//     case 37:
+//         alert("O'ttiz Yetti");
+//     break;
+//     case 38:
+//         alert("O'ttiz Sakkiz");
+//     break;
+//     case 39:
+//         alert("O'ttiz To'qqiz");
+//     break;
+//     case 40:
+//         alert("Qirq");
+//     break;
+//     case 41:
+//         alert("Qirq Bir");
+//     break;
+//     case 42:
+//         alert("Qirq Ikki");
+//     break;
+//     case 43:
+//         alert("Qirq Uch");
+//     break;
+//     case 44:
+//         alert("Qirq To'rt");
+//     break;
+//     case 45:
+//         alert("Qirq Besh");
+//     break;
+//     case 46:
+//         alert("Qirq Olti");
+//     break;
+//     case 47:
+//         alert("Qirq Yetti");
+//     break;
+//     case 48:
+//         alert("Qirq Sakkiz");
+//     break;
+//     case 49:
+//         alert("Qirq To'qqiz");
+//     break;
+//     case 50:
+//         alert("Elik");
+//     break;
+//     case 51:
+//         alert("Elik Bir");
+//     break;
+//     case 52:
+//         alert("Elik Ikki");
+//     break;
+//     case 53:
+//         alert("Elik Uch");
+//     break;
+//     case 54:
+//         alert("Elik To'rt");
+//     break;
+//     case 55:
+//         alert("Elik Besh");
+//     break;
+//     case 56:
+//         alert("Elik Olti");
+//     break;
+//     case 57:
+//         alert("Elik Yetti");
+//     break;
+//     case 58:
+//         alert("Elik Sakkiz");
+//     break;
+//     case 59:
+//         alert("Elik To'qqiz");
+//     break;
+//     case 60:
+//         alert("Oltmish");
+//     break;
+//     case 61:
+//         alert("Oltmish Bir");
+//     break;
+//     case 62:
+//         alert("Oltmish Ikki");
+//     break;
+//     case 63:
+//         alert("Oltmish Uch");
+//     break;
+//     case 64:
+//         alert("Oltmish To'rt");
+//     break;
+//     case 65:
+//         alert("Oltmish Besh");
+//     break;
+//     case 66:
+//         alert("Oltmish Olti");
+//     break;
+//     case 67:
+//         alert("Oltmish Yetti");
+//     break;
+//     case 68:
+//         alert("Oltmish Sakkiz");
+//     break;
+//     case 69:
+//         alert("Oltmish To'qqiz");
+//     break;
+//     case 70:
+//         alert("Yetmish");
+//     break;
+//     case 71:
+//         alert("Yetmish Bir");
+//     break;
+//     case 72:
+//         alert("Yetmish Ikki");
+//     break;
+//     case 73:
+//         alert("Yetmish Uch");
+//     break;
+//     case 74:
+//         alert("Yetmish To'rt");
+//     break;
+//     case 75:
+//         alert("Yetmish Besh");
+//     break;
+//     case 76:
+//         alert("Yetmish Olti");
+//     break;
+//     case 77:
+//         alert("Yetmish Yetti");
+//     break;
+//     case 78:
+//         alert("Yetmish Sakkiz");
+//     break;
+//     case 79:
+//         alert("Yetmish To'qqiz");
+//     break;
+//     case 80:
+//         alert("Sakson");
+//     break;
+//     case 81:
+//         alert("Sakson Bir");
+//     break;
+//     case 82:
+//         alert("Sakson Ikki");
+//     break;
+//     case 83:
+//         alert("Sakson Uch");
+//     break;
+//     case 84:
+//         alert("Sakson To'rt");
+//     break;
+//     case 85:
+//         alert("Sakson Besh");
+//     break;
+//     case 86:
+//         alert("Sakson Olti");
+//     break;
+//     case 87:
+//         alert("Sakson Yetti");
+//     break;
+//     case 88:
+//         alert("Sakson Sakkiz");
+//     break;
+//     case 89:
+//         alert("Sakson To'qqiz");
+//     break;
+//     case 90:
+//         alert("To'qson");
+//     break;
+//     case 91:
+//         alert("To'qson Bir");
+//     break;
+//     case 92:
+//         alert("To'qson Ikki");
+//     break;
+//     case 93:
+//         alert("To'qson Uch");
+//     break;
+//     case 94:
+//         alert("To'qson To'rt");
+//     break;
+//     case 95:
+//         alert("To'qson Besh");
+//     break;
+//     case 96:
+//         alert("To'qson Olti");
+//     break;
+//     case 97:
+//         alert("To'qson Yetti");
+//     break;
+//     case 98:
+//         alert("To'qson Sakkiz");
+//     break;
+//     case 99:
+//         alert("To'qson To'qqiz");
+//     break;
+//     case 100:
+//         alert("Yuz");
+//     break;
+//     default:
+//         alert("Son kiriting:")
+// }
+
+// let kun =parseInt(prompt("1 dan 7 gacha son kiriting:"));
+
+// switch (kun){
+//     case 1:
+//         alert("Dushanba");
+//     break;
+//     case 2:
+//         alert("Seshanba");
+//     break;
+//     case 3:
+//         alert("Chorshanba");
+//     break;
+//     case 4:
+//         alert("Payshanba");
+//     break;
+//     case 5:
+//         alert("Juma");
+//     break;
+//     case 6:
+//         alert("Shanba");
+//     break;
+//     case 7:
+//         alert("Yakshanba");
+//     break;
+// }
+
+// let baho =parseInt(prompt("1 dan 5 gacha son kiriting:"));
+
+// switch (baho){
+//     case 1:
+//         alert("yomon");
+//     break;
+//     case 2:
+//         alert("qoniqarsiz");
+//     break;
+//     case 3:
+//         alert("qoniqarli");
+//     break;
+//     case 4:
+//         alert("yaxshi");
+//     break;
+//     case 5:
+//         alert("a'lo");
+//     break;
+//     default:
+//         alert("xato")
+// }
+
+// let kunlar;
+
+// switch (oy){
+//     case 1:
+//     case 3:
+//     case 5:
+//     case 7:
+//     case 8:
+//     case 12:
+//        kunlar=31;
+//     break;
+//     case 4:
+//     case 6:
+//     case 9:
+//     case 11:
+//         kunlar=30;
+//     break;
+//     case 2:
+//         kunlar=28;
+//     break;
+//     default:
+//         alert("Ahmoq...")
+//     break;
+// }
+// alert(kunlar)
+
+// let a=parseInt(prompt("1-soni kiriting:"))
+// let b=parseInt(prompt("2-soni kiriting:"))
+// let misol = parseInt(prompt("soni kiriting:"));
+
+// switch (misol){
+//     case 1:
+//         misol=a+b;
+//         alert(misol);
+//     break;
+//     case 2:
+//         misol=a-b;
+//         alert(misol);
+//     break;
+//     case 3:
+//         misol=a/b;
+//         alert(misol);
+//     break;
+//     case 4:
+//         misol=a*b;
+//         alert(misol);
+//     break;
+// }
+
+// let uzunlig=parseInt(prompt("Soni kiriting:"))
+// let son=parseInt(prompt("1 dan 5 gacha son kiriting:"))
+// let mAylantir;
+
+// switch (son){
+//     case 1:
+//         mAylantir=uzunlig/10;
+//     break;
+//     case 2:
+//         mAylantir=uzunlig*1000;
+//     break;
+//     case 3:
+//         mAylantir=uzunlig;
+//     break;
+//     case 4:
+//         mAylantir=uzunlig/1000;
+//     break;
+//     case 5:
+//         mAylantir=uzunlig/100;
+//     break;
+// }
+// alert("Uzunlig: "+mAylantir+" m ga teng");
+
+// let ogirlig=parseInt(prompt("Soni kiriting:"))
+// let son=parseInt(prompt("1 dan 5 gacha son kiriting:"))
+// let kgAylantir;
+
+// switch (son){
+//     case 1:
+//         kgAylantir=ogirlig;
+//     break;
+//     case 2:
+//         kgAylantir=ogirlig/1000;
+//     break;
+//     case 3:
+//         kgAylantir=ogirlig/100;
+//     break;
+//     case 4:
+//         kgAylantir=ogirlig*1000;
+//     break;
+//     case 5:
+//         kgAylantir=ogirlig*100;
+//     break;
+// }
+// alert("Og'irligi: "+kgAylantir+" kg ga teng");
+
+// let kunlar=parseInt(prompt("Sanani kiriting kiriting:"));
+// let oy=parseInt(prompt("Oy raqamini kiriting:"));
+// let oy_n;
+// let h_kun=parseInt(prompt("Haftfa kunini raqamini kiriting:"));
+// let h_kun_n;
+// switch (oy){
+//     case 1:
+//         oy_n="Yanvar";
+//     break;
+//     case 2:
+//         oy_n="Fevral";
+//     break;
+//     case 3:
+//         oy_n="Mart";
+//     break;
+//     case 4:
+//         oy_n="Aprel";
+//     break;
+//     case 5:
+//         oy_n="May";
+//     break;
+//     case 6:
+//         oy_n="Iyun";
+//     break;
+//     case 7:
+//         oy_n="Iyul";
+//     break;
+//     case 8:
+//         oy_n="Avgust";
+//     break;
+//     case 9:
+//         oy_n="Sentyabr";
+//     break;
+//     case 10:
+//         oy_n="Oktyabr";
+//     break;
+//     case 11:
+//         oy_n="Noyabr";
+//     break;
+//     case 12:
+//         oy_n="Dekabr";
+//     break;
+// }
+
+// switch (h_kun){
+//     case 1:
+//         h_kun_n="Dushanba";
+//     break;
+//     case 2:
+//         h_kun_n="Seshanba";
+//     break;
+//     case 3:
+//         h_kun_n="Chorshanba";
+//     break;
+//     case 4:
+//         h_kun_n="Payshanba";
+//     break;
+//     case 5:
+//         h_kun_n="Juma";
+//     break;
+//     case 6:
+//         h_kun_n="Shanba";
+//     break;
+//     case 7:
+//         h_kun_n="Yakshanba";
+//     break;
+// }
+
+// alert("Hozir "+oy_n+" oyinig "+h_kun_n+" kuni "+kunlar)
+
+// let kunlar=parseInt(prompt("Sanani kiriting kiriting:"));
+// let oy=parseInt(prompt("Oy raqamini kiriting:"));
+// let oy_n;
+// let h_kun=parseInt(prompt("Haftfa kunini raqamini kiriting:"));
+// let h_kun_n;
+// switch (oy){
+//     case 1:
+//         oy_n="Yanvar";
+//     break;
+//     case 2:
+//         oy_n="Fevral";
+//     break;
+//     case 3:
+//         oy_n="Mart";
+//     break;
+//     case 4:
+//         oy_n="Aprel";
+//     break;
+//     case 5:
+//         oy_n="May";
+//     break;
+//     case 6:
+//         oy_n="Iyun";
+//     break;
+//     case 7:
+//         oy_n="Iyul";
+//     break;
+//     case 8:
+//         oy_n="Avgust";
+//     break;
+//     case 9:
+//         oy_n="Sentyabr";
+//     break;
+//     case 10:
+//         oy_n="Oktyabr";
+//     break;
+//     case 11:
+//         oy_n="Noyabr";
+//     break;
+//     case 12:
+//         oy_n="Dekabr";
+//     break;
+// }
+
+// switch (h_kun){
+//     case 0:
+//         h_kun_n="Dushanba";
+//     break;
+//     case 1:
+//         h_kun_n="Seshanba";
+//     break;
+//     case 2:
+//         h_kun_n="Chorshanba";
+//     break;
+//     case 3:
+//         h_kun_n="Payshanba";
+//     break;
+//     case 4:
+//         h_kun_n="Juma";
+//     break;
+//     case 5:
+//         h_kun_n="Shanba";
+//     break;
+//     case 6:
+//         h_kun_n="Yakshanba";
+//     break;
+// }
+// kunlar=kunlar+1;
+// alert("Hozir "+oy_n+" oyinig "+h_kun_n+" kuni "+kunlar)
+
+// let K=parseInt(prompt("Komanda ber. 1.2.3"));
+// let Y;
+
+// switch (K){
+//     case 1:
+//         Y=" oldinga yurdi";
+//         alert("Yo'nalishi " + Y, K)
+//     break;
+//     case 2:
+//         Y="G'arbga yurdi";
+//         alert("Yo'nalishi " + Y, K)
+//     break;
+//     case 3:
+//         Y="Sharqqa yurdi";
+//         alert("Yo'nalishi " + Y, K)
+//     break;
+// }
+
+// let R=50;
+// let pi=3.14;
+// let formula=parseInt(prompt("1 dan 4 gacha son kiriting:"))
+// let formulalar;
+
+// switch (formula){
+//     case 1:
+//         formulalar=R;
+//     break;
+//     case 2:
+//         formulalar=2*R;
+//     break;
+//     case 3:
+//         formulalar=2*pi*R;
+//     break;
+//     case 4:
+//         formulalar=pi*(R**2);
+//     break;
+// }
+// alert(formulalar)
